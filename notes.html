@@ -2,47 +2,62 @@
 <html lang="en">
 <head>
 	<title>Muzammil</title>
+	<link rel="stylesheet" type="text/css" href="notes.css">
 </head>
-<style>
-	#myCollege { color: blue;
-	background-color: pink;
-	padding: 10px; }
-	.Courses { background-color: tomato;
-	padding: 15px;
-	color: white; }
-</style>
 <body>
-	<h2>Lab 2: 2 HTML Practice:</h2>
-	<p>Practicing HTML</p>
-	<h3>Client / server:</h3>
-	<p>Client-Server is a model or an architecture that describes the relationship between the clients and the servers. Servers provide resources and services to the requests processed by the clients(users).</p>
-	<h3>HTML Tags:</h3>
-	<p>The tags in HTML look like this..... &lt;html&gt;</p>
-	<h3>Git:</h3>
-	<p>Git is a version control system which can track the work done by different programmers or the changes done in the work done by a single programmer too. It is used in a distributed system and can be effective to integrate data.</p>
-	<h4>Github:</h4>
-	<p>Github is web application remote server which hosts the services of Git, while it has many of its own features. It provides a platform for the users to publish their softwares and share their software development processes.</p>
-	<br>
-	<h2>Lab 2: 2 HTML Knowledge:</h2>
-	<li>Html tag: <p>The &lt;html&gt; tag gives the info to web browser that this is an html document. Examples of &lt;html&gt; tags are &lt;head&gt;,&lt;body&gt;,&lt;title&gt; etc</p></li>
-	<li>Tags which dont have content present in them are called Empty tags. These tags do not have an end tag. Example &lt;br&gt; tag....used for a line break.</li><br>
-	<li>Attributes of an html tag gives more info about that tag(element). Example href attribute is used for reference of links...used in &lt;a&gt; tag.</li><br>
-	<li>Nested tags : The tags that are opened first must be closed at the last. Like First in Last Out.</li><br>
-	<li>id attribute is used to specify a unique value within the html document, whereas the class attribute is used to define the equal styles for elements with the same class name.</li><br>
-	<!-- A unique element-->
-	<h4 id="myCollege">GeorgeBrown</h4>
-	<br>
-	<!--Multiple similar Elements -->
-	<h4 class="Courses">Blockchain</h4>
-	<p>The first course is about its introduction and the architecture.</p>
+	<h1> Awesome blog about me</h1>
+	<div class="group">
+	<div id="Menu">
+			<h2 class="menu-header">Menu</h2>
+			<li><a href="#Lab1">Lab 1</a></li>
+			<li><a href="#Lab2">Lab 2</a></li>
+			<li><a href="#Lab3">Lab 3</a></li>
+	</div>
+	<div id="body">
+		<h2 id="Lab1">Lab 1: Intro to Git and Basic Html</h2>
+			<p>Practiced Git Version Control and created account on Github and pushed Repositories.</p>	
+		<h2 id="Lab2">Lab 2: 2 HTML Practice:</h2>
+			<p>Practicing HTML</p>
+		<h3>Client / server:</h3>
+			<p>Client-Server is a model or an architecture that describes the relationship between the clients and the servers. Servers provide resources and services to the requests processed by the clients(users).</p>
+		<h3>HTML Tags:</h3>
+			<p>The tags in HTML look like this..... &lt;html&gt;</p>
+		<h3>Git:</h3>
+			<p>Git is a version control system which can track the work done by different programmers or the changes done in the work done by a single programmer too. It is used in a distributed system and can be effective to integrate data.</p>
+		<h4 class="dev">Github:</h4>
+			<p>Github is web application remote server which hosts the services of Git, while it has many of its own features. It provides a platform for the users to publish their softwares and share their software development processes.</p>
+			<br>
+		<h2>Lab 2: 2 HTML Knowledge:</h2>
+			<li>Html tag: <p>The &lt;html&gt; tag gives the info to web browser that this is an html document. Examples of &lt;html&gt; tags are &lt;head&gt;,&lt;body&gt;,&lt;title&gt; etc</p></li>
+			<li>Tags which dont have content present in them are called Empty tags. These tags do not have an end tag. Example &lt;br&gt; tag....used for a line break.</li><br>
+			<li>Attributes of an html tag gives more info about that tag(element). Example href attribute is used for reference of links...used in &lt;a&gt; tag.</li><br>
+			<li>Nested tags : The tags that are opened first must be closed at the last. Like First in Last Out.</li><br>
+			<li>id attribute is used to specify a unique value within the html document, whereas the class attribute is used to define the equal styles for elements with the same class name.</li><br>
+				<!-- A unique element-->
+				<div id="myCollege">
+					<h4>GeorgeBrown</h4>
+    			</div>
+				<!--Multiple similar Elements -->
+				<br>
+				<div class="Courses">
+					<h4>Blockchain</h4>
+						<p>The first course is about its introduction and the architecture.</p>
+					<h4>Full Stack 1</h4>
+						<p>This course teaches Html, CSS and Javascript</p><br>
+				</div>
+			<br>
+			<li>Type Selector is something that matches the name of the node that means selects all the elements of the given type.</li><br>
+			<li>&lt;head&gt; tag contains the &lt;title&gt; tag and the metadata and also links and CSS scripts.</li><br>
+			<li>&lt;body&gt; tag contains the body of the document that is displayed on the web page. It contains all the heading tags,paragraph tags etc.</li><br>
+		<h2 id="Lab3">Lab 3 : Practiced CSS basics.</h2>
+			<p><li>The total width of an element should be calculated like this:
+			   Total element width = width + left padding + right padding + left border + right border + left margin + right margin</li><br>
+			   <li>The total height of an element should be calculated like this:
+			   Total element height = height + top padding + bottom padding + top border + bottom border + top margin + bottom margin
+			   </li></p>
+			   <li>Total height of the element is 265px and Total width of element is 418px amd the total size of the content area is 650px</li>
 
-	<h4 class="Courses">Full Stack 1</h4>
-	<p>This course teaches Html, CSS and Javascript</p><br>
-
-	<li>Type Selector is something that matches the name of the node that means selects all the elements of the given type.</li><br>
-	<li>&lt;head&gt; tag contains the &lt;title&gt; tag and the metadata and also links and CSS scripts.</li><br>
-	<li>&lt;body&gt; tag contains the body of the document that is displayed on the web page. It contains all the heading tags,paragraph tags etc.</li><br><br>
-
-
+	</div>
+	</div>	
 </body>
 </html>

@@ -1,0 +1,72 @@
+
+#myCollege { 
+	color: blue;
+	background-color: pink;
+	padding: 10px; 
+}
+
+.Courses { 
+	background-color: tomato;
+	padding: 15px;
+	color: white; 
+}
+
+h2.menu-header {
+	margin-bottom: 0.5px;
+	background-color: white;
+
+}
+
+h1 {
+	background-color: orange;
+	text-align: center;
+	font-style: italic;
+	font-family: monospace;
+	font-size: 30px;
+	border-bottom: 2px grey solid;
+	border-top: 2px grey solid;
+	margin: 5px 10px;
+}
+
+#menu {
+	float: left;
+	clear: both;
+	width: 25%;
+	margin-right: 200px;
+}
+
+#body {
+	float: right ;
+	clear: both;
+	width: 75%;
+	border: 10px solid purple;
+  	box-sizing: border-box;
+  	height: 1800px;
+  	margin: 10px 3px 2px 7px;
+  	padding-left:  10px;
+  	padding-right: 10px;
+
+
+}
+
+h2 {
+
+	background-color: #68e88a;
+	border-bottom: 2px brown dashed;
+	margin : 5px 10px;
+}
+
+h3 {
+	background-color: #ffc869;
+	margin: 5px 10px;
+}
+
+h4.dev {
+
+	background-color: #d13b3b;
+
+}
+
+.group {
+	display: flex;
+}
