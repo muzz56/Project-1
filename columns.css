@@ -1,0 +1,13 @@
+main {
+	column-count: 3;
+	column-gap: 2.5em;
+	column-rule: 2px dotted red;
+
+}
+
+
+body{
+    width: 60%;
+    margin-left: 20%;
+    text-align: justify;
+}
